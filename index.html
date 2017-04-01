@@ -54,44 +54,73 @@
 
   <body>
 
-     <nav>
-	<ul>
-		<li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-		<li><a href="#">portfolio</a>
-			<ul>
-				<li><a href="#">Webdesign</a></li>
-				<li><a href="#">Webdevelop</a></li>
-				<li><a href="#">APP develop</a></li>
-			</ul>
-		</li>
-        <li><a href="#">Design</a></li>
-		<li><a href="#">Programming</a>
-			<ul>
-				<li><a href="#">ASP.NET</a>
-                    <ul>
-						<li><a href="#">MVC</a></li>
-						<li><a href="#">WEB API</a></li>
-					</ul>
-				</li>
-				<li><a href="#">C#</a></li>
-                <li><a href="#">JAVA</a></li>
-                <li><a href="#">Javascript</a></li>
-			</ul>
-		</li>
-		<li><a href="#">ABOUT</a></li>
-        <li><a href="#">Contact</a></li>
-	</ul>
-</nav>
+ <!-- header navigatie -->
 
-    <div class="intro">
+  <header>
+	    <span>Author : <a href="http://glennsmith.me" target="_blank">Glenn Smith</a></span>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+  </header>
 
-      <h1>GDM - HTML5 Template</h1>
-      <p>We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- and 3D Animations, Printing and Packaging and the whole Management of those workflows!</p>
+<div class="menu">
+  <ul>
+    <a href="#"><li>LINK ONE</li></a>
+    <a href="#"><li>LINK TWO</li></a>
+    <a href="#"><li>LINK THREE</li></a>
+    <a href="#"><li>LINK FOUR</li></a>
+    <a href="#"><li>LINK FIVE</li></a>
+  </ul>
+</div> 
+
+    <!-- body : content -->
+
+    <div class="grid__wrapper">
+        <div class="grid__container">
+            <div class="grid__row"> 
+                 <div class="grid__column-3">
+                  Kolom 1
+                </div>
+                <div class="grid__column-3">
+                  Kolom 2
+                </div>
+                <div class="grid__column-3">
+                  Kolom 3
+                </div>
+                <div class="grid__column-3">
+                  Kolom 4
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-    <script src="js/main.js"></script>
+
+
+    <!-- Footer -->
+
+    <div class="footer-wrapper">
+	    <div class="grid__container">
+		    <div class="grid__row">
+			    <div class="grid__column-12">
+				   
+            <footer class="footer">
+				    	  <h1 class="hidden">Main Footer Website</h1>
+					         <div class="grid__row">
+					      	      <div class="grid__column-4">
+						      	    Copyright
+						            </div>
+					      	      <div class="grid__column-4">
+						    	      ...
+					      	      </div>
+						            <div class="grid__column-4">
+						      	    Developed by....
+						            </div>
+				        	  </div>
+				    </footer>
+
+		  	  </div>
+		    </div>
+	    </div>
+    </div>
+
+
   </body>
 </html>
