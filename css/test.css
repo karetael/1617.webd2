@@ -1,0 +1,21 @@
+
+.grid__column-6{
+    background-color: white;
+}
+
+
+.grid__column-4{
+
+    float: center;
+}
+
+
+footer{
+    background-color: green;
+}
+
+
+footer .grid__column-6{
+    background-color: green;
+    height: 100px
+}
