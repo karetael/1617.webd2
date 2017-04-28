@@ -1,0 +1,102 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Lato" rel="stylesheet');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+a,
+a:visited {
+    color: #9BBB27;
+    text-decoration: none;
+}
+a:hover {
+    color: #6B693D;
+    text-decoration: underline;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button--default,
+.button--default:active,
+.button--default:visited {
+    background-color:    #9BBB27;
+    border-bottom-color: #6B693D;
+    color: #FFF;
+}
+.button--default:hover {
+    background-color:    #6B693D;
+    border-bottom-color: #9BBB27;
+    color: #FFF;
+}
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    background-color:    #D6CDBC;
+    border-bottom-color:#716058;
+    color: #FFF;
+}
+.button--primary:hover {
+    background-color:    #D6CDBC;
+    border-bottom-color: #716058;
+    color: #FFF;
+}
+
+
+.colours__colour--a {
+    background-color: #9BBB27;
+}
+.colours__colour--b {
+    background-color: #6B693D;
+}
+.colours__colour--c {
+    background-color: #D6CDBC;
+}
+.colours__colour--d {
+    background-color: #716058;
+}
+.colours__colour--e {
+    background-color: hsl(170, 64%, 32%);
+}
+
+
+.keywords__keyword--a {
+    color: #9BBB27;
+    font-size: 3.75rem;
+}
+.keywords__keyword--b {
+    color: #6B693D;
+    font-size: 1.5rem;
+}
+.keywords__keyword--c {
+    color: #D6CDBC;
+    font-size: 2.5rem;
+}
+.keywords__keyword--d {
+    color: #716058;
+    font-size: 3.25rem;
+}
