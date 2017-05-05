@@ -8,8 +8,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 36px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
+  text-align: center;
+  color: #6B693D;
+}
+
+a {
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
 }

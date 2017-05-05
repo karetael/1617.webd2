@@ -58,54 +58,42 @@
 
  <!-- header navigatie -->
 
-<div class="navigation__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-			<div class="grid__column-12">
-        <div class="topnav" id="myTopnav">
-          <a href="index.html"><img src="image/Artboard 2.png" alt="" width="40px"></a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="diensten.html">Diensten</a>
-          <a href="overons.html">Over ons</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
+<div class="sf-grid__wrapper navigation__wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
+            <nav class="topnav" id="myTopnav">
+            <ul class="asm-clearfix">
+                <li><a href="index.html"><img src="image/logo.png" alt="logo" width="60px"></a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="overons.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
 			</div>
 		</div>
 	</div>
 </div>
 
 
-
-<script>
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
-</script>
-
-
  <!-- content -->
 
-<div class="grid__wrapper">
-        <div class="grid__container">
-            <div class="grid__row"> 
+<div class="sf-grid__wrapper">
+        <div class="sf-grid__container">
+            <div class="sf-grid__row"> 
             
-                <div class="grid__column-4">
+                <div class="sf-grid__column-4">
                     <img src="image/Silhouette.png" alt="silhouette" width="200px">
                 <p>Identiteit & huisstijl</p>
 <p>Als organisatie wil je een beeld dat past bij je imago. Een goede uitstraling in de vorm van een huisstijl is daarbij van belang. Laat me helpen bij het bepalen van uw logo, kleurgebruik, typografie, lay-outs en meer.</p>
                 </div>
-                <div class="grid__column-4">
+                <div class="sf-grid__column-4">
                     <img src="image/Silhouette.png" alt="silhouette" width="200px">
                <p>Grafisch ontwerp</p>
 <p>Neem gerust contact op voor al uw behoeften op het gebied van grafisch ontwerp. Denk aan een professioneel logo design, visitekaartjes, banner opmaak, flyers en meer!</p>
                 </div>
-                <div class="grid__column-4">
+                <div class="sf-grid__column-4">
                     <img src="image/Silhouette.png" alt="silhouette" width="200px">
                 <p>Webdesign</p>
 <p>Aangezien de meeste mensen tegenwoordig eerst online zoeken naar informatie over en product of dienst, maak je met een professionele website een pima kans om een goede indruk achter te laten bij deze potentiele klant.</p>
@@ -117,26 +105,29 @@
 
  <!-- footer -->
 
-<div class="footer__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-			<div class="grid__column-12">
+<div class="sf-grid__wrapper footer__wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
 				<footer class="footer">
-					<div class="grid__row">
-						<div class="grid__column-4">
-						<a href=""></a>	
-                            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                            <i class="fa fa-instagram w3-hover-opacity"></i>
-                            <i class="fa fa-snapchat w3-hover-opacity"></i>
-                            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                            <i class="fa fa-twitter w3-hover-opacity"></i>
-                            <i class="fa fa-linkedin w3-hover-opacity"></i>
+					<div class="sf-grid__row">
+						<div class="sf-grid__column-4">
+                            <ul>
+                            <li><a href="">Follow us</a></li>	
+                            <li><a href=""><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a></li>    
+                            <li><a href=""><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a></li>
+                            </ul>
                         </div>
-						<div class="grid__column-4">
-							Copyright
+						<div class="sf-grid__column-4">
+							<ul>
+                            <li><a href="">Copyright</a></li>
+							</ul>
 						</div>
-						<div class="grid__column-4">
-							Developed by Karen Taelman
+						<div class="sf-grid__column-4">
+                            <ul>
+							<li><a href="">Follow us</a></li>
+                            </ul>
 						</div>
                         
                         </div>
@@ -146,7 +137,6 @@
 		</div>
 	</div>
 </div>
-
 
 
 

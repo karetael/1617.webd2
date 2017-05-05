@@ -61,18 +61,19 @@
  <!-- header navigatie -->
 
 
-<div class="navigation__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-			<div class="grid__column-12">
-        <div class="topnav" id="myTopnav">
-          <a href="index.html"><img src="image/Artboard 2.png" alt="" width="40px"></a>
-          <a href="projects.html">Projects</a>
-          <a href="diensten.html">Diensten</a>
-          <a href="about.html">Team</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
+<div class="sf-grid__wrapper navigation__wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
+            <nav class="topnav" id="myTopnav">
+            <ul class="asm-clearfix">
+                <li><a href="index.html"><img src="image/logo.png" alt="logo" width="60px"></a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="overons.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
 			</div>
 		</div>
 	</div>
@@ -80,60 +81,37 @@
 
 
 
-<script>
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
-</script>
-
 
     <!-- body : content -->
 
-<div class="grid__wrapper">
-        <div class="grid__container">
-            <div class="grid__row">
-		
-			<div class="grid__column-6">
+<div class="sf-grid__wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-4">
+                <div class="container">
+                    <img src="image/SCN_0013.jpg" alt="Avatar" class="image" width="100px">
+                        <div class="overlay">
+                            <div class="text"><a href="">Poster</a></div>
+                           </div> 
+                </div>
+			</div>
+            <div class="sf-grid__column-4">
+                <div class="container">
+                    <img src="image/SCN_0013.jpg" alt="Avatar" class="image" width="100px">
+                        <div class="overlay">
+                            <div class="text"><a href="">Illustraties</a></div>
+                        </div> 
+                </div>
+			</div>
 
-
-			<a href="posters.html"><div id="box">
-  				<div id="overlay">
-   				 <span id="plus">Poster</span></a>
-  				</div>
-  			</div>
-        </div>
-<div class="grid__column-6">
-			<a href="logo.html"><div id="box2">
-  				<div id="overlay">
-    				<span id="plus">Logo's</span></a>
-  				</div>
-  			</div>
-              </div>
-<div class="grid__column-6">
-			<a href="characterdesign.html"><div id="box3">
-  				<div id="overlay">
-    				<span id="plus">Character design</span></a>
-  			</div>
-            </div>
-            </div>
-
-            <div class="grid__column-6">
-            <a href="illustrations.html"><div id="box4">
-  				<div id="overlay">
-    				<span id="plus">Illustraties</span></a>
-  			</div>
-		</div>
-        </div>
-        </div>
-   
-
-
-		</div>
+        <div class="sf-grid__column-4">
+                <div class="container">
+                    <img src="image/SCN_0013.jpg" alt="Avatar" class="image" width="100px">
+                        <div class="overlay">
+                            <div class="text"><a href="">Logo's</a></div>
+                        </div> 
+                </div>
+			</div>
 
 		</div>
 	</div>
@@ -148,24 +126,29 @@
 
     <!-- Footer -->
 
-<div class="footer__wrapper">
-	<div class="grid__container">
-		<div class="grid__row">
-			<div class="grid__column-12">
+<div class="sf-grid__wrapper footer__wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
 				<footer class="footer">
-					<div class="grid__row">
-						<div class="grid__column-4">
-						<a href=""></a>	
-                            <a href=""><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a>
-                            <a href=""><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a>        
-                            <a href=""><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a>
-                           
+					<div class="sf-grid__row">
+						<div class="sf-grid__column-4">
+                            <ul>
+                            <li><a href="">Follow us</a></li>	
+                            <li><a href=""><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a></li>    
+                            <li><a href=""><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a></li>
+                            </ul>
                         </div>
-						<div class="grid__column-4">
-							Copyright
+						<div class="sf-grid__column-4">
+							<ul>
+                            <li><a href="">Copyright</a></li>
+							</ul>
 						</div>
-						<div class="grid__column-4">
-							Developed by Karen Taelman
+						<div class="sf-grid__column-4">
+                            <ul>
+							<li><a href="">Follow us</a></li>
+                            </ul>
 						</div>
                         
                         </div>

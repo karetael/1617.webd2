@@ -73,6 +73,31 @@ console.clear();
 })();
 
 
+  // Form
+
+
+$(function() {
+  "use strict";
+  // Custom version of Modernizr needs to be built for placeholder attribute feature detect, in this case I just hardcoded the class in the html tag
+  // if (Modernizr.placeholder){
+    $('.textfield').each( function(){
+      var $label = $(this).siblings('label').first();
+
+      $(this)
+        .on('keyup focus', function(){
+          if( $(this).val().length ){
+            $label.addClass('visible');
+          } else {
+            $label.removeClass('visible');
+          }
+        })
+        .on('blur', function(){
+          $label.removeClass('visible');
+        })
+        .trigger('keyup');
+    });
+  // }
+});
   
 
 
