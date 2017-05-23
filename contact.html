@@ -50,6 +50,7 @@
     <link rel="stylesheet" media="all" href="css/contact.css">
     <link rel="stylesheet" media="all" href="css/main.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" media="all" href="css/style-tile-a.css">
     
     
     <!-- Modernizr: feature detection -->
@@ -65,13 +66,20 @@
 		<div class="sf-grid__row">
 			<div class="sf-grid__column-12">
             <nav class="topnav" id="myTopnav">
-            <ul class="asm-clearfix">
-                <li><a href="index.html"><img src="image/logo.png" alt="logo" width="60px"></a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="diensten.html">Diensten</a></li>
-                <li><a href="overons.html">Over ons</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+                    <ul class="asm-clearfix">
+                        <li><a href="index.html"><img src="assets/images/logo.png" alt="logo" width="60px"></a></li>
+                        <li class="dropdown">
+                            <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                            <ul class="dropdown-content">
+                                    <li><a href="posters.html">Posters</a></li>
+                                    <li><a href="illustraties.html">Illustraties</a></li>
+                                    <li><a href="logo.html">Logo's</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="diensten.html">Diensten</a></li>
+                        <li><a href="overons.html">Over ons</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
             </nav>
 			</div>
 		</div>
@@ -87,8 +95,10 @@
 			<div class="sf-grid__column-12">
        <h1>Adres</h1>
         <div class="location">
-        <img src="image/Artboard 1.png" alt="loaction">
-        
+        <img src="assets/images/Artboard 1.png" alt="loaction">
+
+        <p><a href="https://www.google.be/maps/dir//Campus+Mariakerke+Arteveldehogeschool,+Industrieweg+232,+9030+Gent/@51.0872944,3.6705437,17z/data=!4m15!1m6!3m5!1s0x47c370362705fc21:0x47f9e1d923e07a64!2sCampus+Mariakerke+Arteveldehogeschool!8m2!3d51.0873012!4d3.6700877!4m7!1m0!1m5!1m1!1s0x47c370362705fc21:0x47f9e1d923e07a64!2m2!1d3.6700877!2d51.0873012">Vindt de Route</a>
+        </p>
         <p>Industrieweg 232<p>
         <p>9030 Gent-Mariakerke</p>
 
@@ -141,7 +151,8 @@
           <textarea name="comments" id="comments" cols="30" rows="10" class="textfield" placeholder="Commentaar"></textarea>
         </div>
       </fieldset>
-      <input class="button" type="submit" value="Submit">
+
+      <input class="button button--default" type="submit" value="Verzend">
     </form>
   </main>
 
@@ -165,24 +176,29 @@
 					<div class="sf-grid__row">
 						<div class="sf-grid__column-4">
                             <ul>
-                            <li><a href="">Follow us</a></li>	
-                            <li><a href=""><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a></li>
-                            <li><a href=""><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a></li>    
-                            <li><a href=""><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a></li>
+                            <li>Follow us</li>	
+                            <li><a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/"><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a></li>
+                            <li><a href="https://www.instagram.com/arteveldehogeschool/"><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a></li>    
+                            <li><a href="https://twitter.com/arteveldehsgent?lang=nl"><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a></li>
                             </ul>
                         </div>
 						<div class="sf-grid__column-4">
 							<ul>
-                            <li><a href="">Copyright</a></li>
+                  <li>Copyright</li>
+                  <li>Karen Taelman</li>
 							</ul>
 						</div>
 						<div class="sf-grid__column-4">
-                            <ul>
-							<li><a href="">Follow us</a></li>
-                            </ul>
+              <ul>
+							<li>Links</li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="diensten.html">Diensten</a></li>
+              <li><a href="overons.html">Over ons</a></li>    
+              <li><a href="contact.html">Contact</a></li>
+              </ul>
 						</div>
                         
-                        </div>
+          </div>
 					</div>
 				</footer>
 			</div>

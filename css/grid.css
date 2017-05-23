@@ -126,7 +126,7 @@ html {
   padding-right: 0.5rem;
   width: 100%;
   min-height: 1px;
-  overflow: hidden; }
+  /*overflow: hidden;*/ }
 
 .sf-grid__column-1 {
   width: 8.33333%; }
