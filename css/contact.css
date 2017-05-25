@@ -9,7 +9,6 @@ html {
   box-sizing: border-box;
 }
 main {
-  max-width: 780px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -105,23 +104,15 @@ label, .placeholder label.visible {
 
 
 
-
-
-
 .location img {
     max-width: 400px;
-    display: block;
     margin-left: auto;
     margin-right: auto 
-
-
 }
 
 
 
 .footer_wrapper{
-  
-  
   height: 100px;
   padding: 1rem;
   background-color: #6B693D;

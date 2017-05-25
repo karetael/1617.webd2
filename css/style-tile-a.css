@@ -156,13 +156,13 @@ a:hover {
 .button--default,
 .button--default:active,
 .button--default:visited {
-    background-color:    #9BBB27;
-    border-bottom-color: #6B693D;
+    background-color:    #6B693D;
+    border-bottom-color: #716058;
     color: #FFF;
 }
 .button--default:hover {
-    background-color:    #6B693D;
-    border-bottom-color: #9BBB27;
+    background-color:    #D6CDBC;
+    border-bottom-color: #6B693D;
     color: #FFF;
 }
 .button--primary,

@@ -76,9 +76,6 @@ li.dropdown {
     position: relative;
 }
 
-.dropbtn {
-    
-}
 
 ul.dropdown-content {
     display: none;
@@ -106,7 +103,10 @@ ul.dropdown-content {
   background-color: #CFD953;
 }
 
-
+p {
+  text-align: center;
+  font-size: 12pt;
+}
 
 /*
 @media screen and (max-width: 600px) {
@@ -188,7 +188,6 @@ ul.dropdown-content {
 /* index */
 
 
-
 .icons{
 text-align: center;
 }
@@ -200,22 +199,28 @@ text-align: center;
   display: block;
 }
 
-/*image*/
+
+
+/*poster*/
 
 .sf-grid__column-6 {
   position: relative;
   width: 50%;
 }
 
-.sf-grid__column-4 {
-  margin-bottom: 40px;
+.sf-grid__column-7 p{
+  text-align: left;
 }
 
 
+
+
+/*images*/
+
 .img {
-  display: block;
   width: 100%;
   height: auto;
+  float:left;
 }
 
 .overlay {
@@ -231,13 +236,10 @@ text-align: center;
   background-color: #9BBB27;
 }
 
-.grid__column-6:hover .overlay {
-  opacity: 1;
-}
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 10pt;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -246,12 +248,12 @@ text-align: center;
 }
 
 
-/*footer*/
 
+/*footer*/
 
 .footer__wrapper{
   padding: 1rem;
-  background-color: grey;
+  background-color: #706F6F;
   text-align: center;
   color: white;
   width: 100%;
@@ -262,22 +264,37 @@ text-align: center;
 .sf-grid__column-4  ul > li {
   text-decoration: none;
   list-style: none;
+  float: left;
+  padding: 5px;
 }
+
+
+
+.info {
+
+text-align: left;
+}
+
+
+
 
 
 /*diensten*/
 
 
-p {
-  text-align: center;
-}
 
 .sf-grid__column-4 img {
   
    padding: 0 6px;
     float: left;
-    width: 90%;
+    width: 100%;
 }
+
+.dienst{
+ padding-bottom: 70px;
+}
+
+
 
 @media only screen and (max-width: 700px){
     .sf-grid__column-4 img {
@@ -289,7 +306,7 @@ p {
 @media only screen and (max-width: 500px){
     .sf-grid__column-4 {
         width: 100%;
-        float: left;
+        float:left;
         clear:both;
         
     }
@@ -299,18 +316,19 @@ img {
    margin-bottom: 20px;
 }
 
+
+
 /*portfolio*/
 
 
 
 .container {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   position: relative;
   width: 100%;
+  
 }
-
-
 
 .overlay {
   position: absolute;
@@ -341,8 +359,8 @@ img {
 }
 
 .text a{
-font-size: 30px;
- padding: 10px
+font-size: 20px;
+ padding: 10px;
  
 }
 
@@ -355,8 +373,7 @@ font-size: 30px;
 
 
 
-
-/*Team*/
+/*Over ons*/
 
 h2{
   text-align:center;
@@ -411,5 +428,22 @@ button:hover, a:hover {
 }
 
 
+/*Contact*/
 
+select {
 
+  background-color: white;
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.formulier{
+ background-color: #9BBB27;
+}
+
+location{
+ padding-top: 30px;
+}
