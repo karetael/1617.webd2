@@ -47,8 +47,8 @@
     <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/contact.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/contact.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" media="all" href="css/style-tile-a.css">
     
@@ -90,13 +90,12 @@
 <!--Location-->
 
 <div class="wrapper">
-	<div class="sf-grid__container">
+  <div class="sf-grid__container">
 		<div class="sf-grid__row">
-			<div class="sf-grid__column-12">
        <h1>Adres</h1>
-        <div class="location">
-        <img src="assets/images/Artboard 1.png" alt="loaction">
-
+       <img class="location" src="assets/images/Maplocation.jpg" alt="location" width="100%">
+      
+        
         <p><a href="https://www.google.be/maps/dir//Campus+Mariakerke+Arteveldehogeschool,+Industrieweg+232,+9030+Gent/@51.0872944,3.6705437,17z/data=!4m15!1m6!3m5!1s0x47c370362705fc21:0x47f9e1d923e07a64!2sCampus+Mariakerke+Arteveldehogeschool!8m2!3d51.0873012!4d3.6700877!4m7!1m0!1m5!1m1!1s0x47c370362705fc21:0x47f9e1d923e07a64!2m2!1d3.6700877!2d51.0873012">Vindt de Route</a>
         </p>
         <p>Industrieweg 232<p>
@@ -119,47 +118,51 @@
 
 <!--contact form-->
 
-<div class="sf-grid__wrapper contact-wrapper">
+<div class="sf-grid__wrapper contact-wrapper formulier">
 	<div class="sf-grid__container">
 		<div class="sf-grid__row">
 			<div class="sf-grid__column-12">
-                <div class="container">
-                    <div class="form">
+        <div class="container">
+          <div class="form">
 		                
-				   <main>
-    <form action="#" class="clearfix">
-      <h1>Contact</h1>
-      <fieldset>
-        <div class="row">
-          <label for="name">Naam</label>
-          <input type="text" name="name" class="textfield" placeholder="Name" required>
-        </div>
-        <div class="row">
-          <label for="email">E-mail</label>
-          <input type="email" name="email" class="textfield" placeholder="Email" required>
-        </div>
-        <div class="row">
-          <label for="Telephone">Telefoon</label>
-          <input type="Number" name="number" class="textfield" placeholder="Telefoon" required>
-        </div>
-        <div class="row">
-          <label for="subject-confirm">Onderwerp</label>
-          <input type="subject" name="subject-confirm" class="textfield" placeholder="Onderwerp" required>
-        </div>
-        <div class="row">
-          <label for="comments">Commentaar</label>
-          <textarea name="comments" id="comments" cols="30" rows="10" class="textfield" placeholder="Commentaar"></textarea>
-        </div>
-      </fieldset>
+             <main>
+                <form action="#" class="clearfix">
+                    <h1>Contacteer ons</h1>
+                      <fieldset>
+    
+                        <div class="row">
+                          <label for="name">Naam</label>
+                            <input type="text" name="name" class="textfield" placeholder="Name" required>
+                        </div>
 
-      <input class="button button--default" type="submit" value="Verzend">
-    </form>
-  </main>
+                        <div class="row">
+                          <label for="email">E-mail</label>
+                            <input type="email" name="email" class="textfield" placeholder="Email" required>
+                        </div>
 
-                            
-		               
-                     </div>
-                </div>
+                        <div class="row">
+                            <label for="Telephone">Telefoon</label>
+                              <input type="text" name="number" class="textfield" placeholder="Telefoon" required>
+                          </div>
+                        
+                          <select>
+                            <option value="first">Wat zoek je...</option>
+                            <option value="second">Posters</option>
+                            <option value="third">Logo</option>
+                            <option value="fourth">Illustratie</option>
+                            <option value="fifth">Andere</option>
+                          </select>
+
+                          <div class="row">
+                            <label for="comments">Commentaar</label>
+                              <textarea name="comments" id="comments" cols="30" rows="10" class="textfield" placeholder="Commentaar"></textarea>
+                          </div>
+                      </fieldset>
+                          <input class="button button--default" type="submit" value="Verzend" onclick="alert('Email wordt verstuurd.')">
+                </form>
+              </main>
+          </div>
+        </div>
 			</div>  
 		</div>
 	</div>
@@ -174,37 +177,49 @@
 			<div class="sf-grid__column-12">
 				<footer class="footer">
 					<div class="sf-grid__row">
-						<div class="sf-grid__column-4">
-                            <ul>
-                            <li>Follow us</li>	
-                            <li><a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/"><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a></li>
-                            <li><a href="https://www.instagram.com/arteveldehogeschool/"><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a></li>    
-                            <li><a href="https://twitter.com/arteveldehsgent?lang=nl"><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a></li>
-                            </ul>
-                        </div>
-						<div class="sf-grid__column-4">
-							<ul>
-                  <li>Copyright</li>
-                  <li>Karen Taelman</li>
-							</ul>
-						</div>
-						<div class="sf-grid__column-4">
-              <ul>
-							<li>Links</li>
-              <li><a href="portfolio.html">portfolio</a></li>
-              <li><a href="diensten.html">Diensten</a></li>
-              <li><a href="overons.html">Over ons</a></li>    
-              <li><a href="contact.html">Contact</a></li>
-              </ul>
-						</div>
+
+                        <div class="sf-grid__column-4">
                         
-          </div>
-					</div>
-				</footer>
-			</div>
-		</div>
-	</div>
-</div>
+                           <p class="info">Evermore graphics bvba</p>
+                            <p class="info">Industrieweg 232</p>
+                            <p class="info">9030 Gent-Mariakerke</p>
+                            <p class="info">Contact</p>
+                            <p class="info">☎ 09 234 86 00</p>
+                            <p class="info">info@evermoregraphics.be</p>
+
+                        
+						</div>
+
+                        <div class="sf-grid__column-4">
+							<p>Ontvang onze nieuwsbrief</p>
+                            <div class="row">
+                                <input type="email" name="email" class="textfield" placeholder="Email" required>
+                                 <input class="button button--default" type="submit" value="Verzend" onclick="alert('Email wordt verstuurd.')">
+                            </div>
+                
+		
+						</div>
+
+						<div class="sf-grid__column-4">
+                            <p>Volg ons</p>
+                        
+                            <p><a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/"><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a>
+                            Facebook</p>
+                            <p><a href="https://www.instagram.com/arteveldehogeschool/"><i class="fa fa-instagram fa-lg w3-hover-opacity"></i></a>
+                            Instagram</p>    
+                            <p><a href="https://twitter.com/arteveldehsgent?lang=nl"><i class="fa fa-twitter fa-lg w3-hover-opacity"></i></a>
+                            Twitter</p>
+                            
+                        </div>
+						
+						
+						    </div>
+					    </div>
+				    </footer>
+			    </div>
+		    </div>
+	    </div>
+    </div>
 
 
 
